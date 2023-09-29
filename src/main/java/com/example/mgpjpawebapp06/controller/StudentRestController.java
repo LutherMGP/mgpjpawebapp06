@@ -19,7 +19,7 @@ public class StudentRestController {
 
     @GetMapping("/")
     public String detteErRoden() {
-        return "Du er i roden af mgpjpawebapp06";
+        return "Du er i roden af mgpjpawebapp06 indlæst fra Azure!";
     }
 
     @GetMapping("/students")
